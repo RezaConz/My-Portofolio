@@ -26,6 +26,16 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import kotlin from './kotlin.svg'
+import flutter from './flutter.svg'
+import androidstudio from './androidstudio.svg'
+import firebase from './firebase.svg'
+import bootstrap from './bootstrap.svg'
+import figma from './figma.svg'
+import gitlab from './gitlab.svg'
+import java from './java.svg'
+import vite from './vite.svg'
+import visualstudiocode from './vsc.svg'
 
 export {
     css,
@@ -55,5 +65,16 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    kotlin,
+    androidstudio,
+    flutter,
+    firebase,
+    bootstrap,
+    java,
+    gitlab,
+    vite,
+    visualstudiocode,
+    figma
+    
 }

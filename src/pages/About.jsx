@@ -15,15 +15,22 @@ const About = () => {
         Hello, I'm{" "}
         <span className='blue-gradient_text font-semibold drop-shadow'>
           {" "}
-          Adrian
+          Reza
         </span>{" "}
         👋
       </h1>
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Software Engineer based in Croatia, specializing in technical
-          education through hands-on learning and building applications.
+          I am a sixth semester student majoring in Information Systems at
+          Brawijaya University with a GPA of 3.63. Eager to expand my knowledge
+          and skills, I have successfully completed several personal Android and
+          Website projects, demonstrating my commitment to applying programming
+          concepts directly, while also frequently working on Android and Data
+          projects in groups. My academic journey has equipped me with a solid
+          foundation in Information Systems, and I am enthusiastic to develop my
+          expertise in Android, Website, and Data development through continuous
+          learning and practical experience.
         </p>
       </div>
 
@@ -47,11 +54,11 @@ const About = () => {
       </div>
 
       <div className='py-16'>
-        <h3 className='subhead-text'>Work Experience.</h3>
+        <h3 className='subhead-text'>Experience</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
-            I've worked with all sorts of companies, leveling up my skills and
-            teaming up with smart people. Here's the rundown:
+            I have worked in organizations, produced many projects, leveling up
+            my skills and teaming up with smart people. Here's the rundown:
           </p>
         </div>
 

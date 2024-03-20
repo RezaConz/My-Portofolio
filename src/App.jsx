@@ -9,9 +9,9 @@ const App = () => {
       <Router>
         <Navbar />
         <Routes>
-          <Route path='/porto' element={<Home />} />
+          <Route path='/My-Portofolio' element={<Home />} />
           <Route
-            path='porto/*'
+            path='My-Portofolio/*'
             element={
               <>
                 <Routes>

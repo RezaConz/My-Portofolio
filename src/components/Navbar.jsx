@@ -5,12 +5,16 @@ import { logo } from "../assets/images";
 const Navbar = () => {
   return (
     <header className='header'>
-      <NavLink to='/porto'>
-        <img src={logo} alt='logo' className='w-18 h-18 object-contain' />
+      <NavLink to='/My-Portofolio'>
+        <p className='text-black text-[18px] font-medium cursor-pointer flex '>
+          <span className='sm:block hidden'>Muhammad</span>
+          &nbsp; Reza &nbsp;
+          <span className='sm:block hidden'>Kurniawan</span>
+        </p>
       </NavLink>
       <nav className='flex text-lg gap-7 font-medium'>
         <NavLink
-          to='/porto/about'
+          to='/My-Portofolio/about'
           className={({ isActive }) =>
             isActive ? "text-blue-600" : "text-black"
           }
@@ -18,7 +22,7 @@ const Navbar = () => {
           About
         </NavLink>
         <NavLink
-          to='/porto/projects'
+          to='/My-Portofolio/projects'
           className={({ isActive }) =>
             isActive ? "text-blue-600" : "text-black"
           }
