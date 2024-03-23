@@ -137,7 +137,7 @@ export const experiences = [
     iconBg: "#accbe1",
     date: "Feb 2023 - Des 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using Kotlin and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -150,7 +150,7 @@ export const experiences = [
     iconBg: "#fbc3bc",
     date: "Feb 2024 - Jun 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using Kotlin, Tensorflow, and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -177,52 +177,36 @@ export const socialLinks = [
 ];
 
 export const projects = [
-//   {
-//     iconUrl: pricewise,
-//     theme: "btn-back-red",
-//     name: "Amazon Price Tracker",
-//     description:
-//       "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
-//     link: "https://github.com/adrianhajdin/pricewise",
-//   },
-//   {
-//     iconUrl: threads,
-//     theme: "btn-back-green",
-//     name: "Full Stack Threads Clone",
-//     description:
-//       'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-//     link: "https://github.com/adrianhajdin/threads",
-//   },
-//   {
-//     iconUrl: car,
-//     theme: "btn-back-blue",
-//     name: "Car Finding App",
-//     description:
-//       "Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
-//     link: "https://github.com/adrianhajdin/project_next13_car_showcase",
-//   },
   {
-    iconUrl: snapgram,
-    theme: "btn-back-pink",
-    name: "Full Stack Instagram Clone",
+    iconUrl: flutter,
+    theme: "btn-back-red",
+    name: "Chating App",
     description:
-      "Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
-    link: "https://github.com/adrianhajdin/social_media_app",
+      "this is an app that is under development using flutter. This is an email-based chat application for everyone using firebase backend.",
+    link: "https://github.com/RezaConz/Flutter-ChatApp.git",
   },
-//   {
-//     iconUrl: estate,
-//     theme: "btn-back-black",
-//     name: "Real-Estate Application",
-//     description:
-//       "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
-//     link: "https://github.com/adrianhajdin/projects_realestate",
-//   },
-//   {
-//     iconUrl: summiz,
-//     theme: "btn-back-yellow",
-//     name: "AI Summarizer Application",
-//     description:
-//       "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
-//     link: "https://github.com/adrianhajdin/project_ai_summarizer",
-//   },
+  {
+    iconUrl: github,
+    theme: "btn-back-black",
+    name: "GithubUser",
+    description:
+      "This is an application that I worked on during the Bangkit program. By using the API from Github, this application can display github users, followers, and following.",
+    link: "https://github.com/RezaConz/GithubUserApp.git",
+  },
+  {
+    iconUrl: threads,
+    theme: "btn-back-blue",
+    name: "Recroute",
+    description:
+      "This is an application that functions to provide online courses to fresh graduates who are having trouble finding jobs.",
+    link: "https://github.com/RezaConz/Recroute.git",
+  },
+  {
+    iconUrl: estate,
+    theme: "btn-back-green",
+    name: "Cleaving",
+    description:
+      "an app that provides an easy and practical place for those who are struggling to recycle recyclable items",
+    link: "https://github.com/RezaConz/Cleaving.git",
+  },
 ];
